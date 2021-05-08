@@ -1,0 +1,126 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+
+
+/* Custom Style of page */
+
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: rgb(212,206,167);
+}
+h1 h2 h3 h4 h5 h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 160px;
+}
+.flex{
+  display: flex;
+  justify-content:space-around;
+}
+.header{
+  background-color: rgb(248,99,48);
+  padding: 20px;
+}
+.nav .flex{
+  justify-content: flex-start;
+}
+.nav a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.padding a{
+  padding-left: 0px;
+}
+.box{
+  width: 33%;
+  background-color: rgb(0,89,121);
+  margin: 20px;
+  box-shadow: 10px 10px 4px rgba(0,0,0,0.4);
+}
+.box, .flex{
+  justify-content: flex-start;
+}
+.list{
+  padding:30px 40px ;
+  color: rgb(212,206,167);
+}
+.ordered{
+  list-style-type: decimal;
+}
+.un-ordered{
+  list-style-type: disc;
+}
+ .margin{
+   margin-left: 30px;
+ }
+ .tick{
+   line-height: 2;
+ }
+ .fas{
+   color: black;
+   padding-right: 10px;
+ }
+ .main-head{
+   margin: 40px 0px;
+ }
+ .head-text{
+   font-size: 30px;
+ }
+ .footer{
+   background-color: rgb(38,44,34);
+   padding: 50px;
+ }
